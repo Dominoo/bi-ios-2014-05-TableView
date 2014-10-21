@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FBA379B2-D0F6-4C30-9501-AB81F67B14AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BI-IOS-TableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4E9FA2853311895AE15A164235F328AA614252A</key>
+		<string>https://github.com/Dominoo/bi-ios-2014-05-TableView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BI-IOS-TableView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4E9FA2853311895AE15A164235F328AA614252A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Dominoo/bi-ios-2014-05-TableView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4E9FA2853311895AE15A164235F328AA614252A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4E9FA2853311895AE15A164235F328AA614252A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BI-IOS-TableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
