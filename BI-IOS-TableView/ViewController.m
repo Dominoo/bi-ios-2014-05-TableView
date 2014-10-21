@@ -117,16 +117,16 @@
     cell.detailTextLabel.text = [indexPath description];
     cell.imageView.image = [UIImage imageNamed:@"placeholder"];
     
-    /*dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
         
-        NSURL *url = [NSURL URLWithString:@"http://rajce.hippotaps.com/tomato.jpg"];
+        NSURL *url = [NSURL URLWithString:@"http://www.hey.fr/tools/emoji/ios_emoji_smiling_face_with_heart-shaped_eyes.png"];
         NSData *data = [NSData dataWithContentsOfURL:url];
         UIImage *image = [UIImage imageWithData:data scale:[UIScreen mainScreen].scale];
         
         dispatch_async(dispatch_get_main_queue(), ^{
             cell.imageView.image = image;
         });
-    });*/
+    });
     
     return cell;
 }
