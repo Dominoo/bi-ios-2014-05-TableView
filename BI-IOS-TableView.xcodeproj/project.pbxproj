@@ -14,6 +14,7 @@
 		B412BB5419F62AE2009D1C30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B412BB5319F62AE2009D1C30 /* Images.xcassets */; };
 		B412BB5719F62AE2009D1C30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B412BB5519F62AE2009D1C30 /* LaunchScreen.xib */; };
 		B412BB6319F62AE2009D1C30 /* BI_IOS_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B412BB6219F62AE2009D1C30 /* BI_IOS_TableViewTests.m */; };
+		B412BB7119F6466D009D1C30 /* FirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B412BB7019F6466D009D1C30 /* FirstCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B412BB5C19F62AE2009D1C30 /* BI-IOS-TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BI-IOS-TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B412BB6119F62AE2009D1C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B412BB6219F62AE2009D1C30 /* BI_IOS_TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BI_IOS_TableViewTests.m; sourceTree = "<group>"; };
+		B412BB6F19F6466D009D1C30 /* FirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCell.h; sourceTree = "<group>"; };
+		B412BB7019F6466D009D1C30 /* FirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B412BB5319F62AE2009D1C30 /* Images.xcassets */,
 				B412BB5519F62AE2009D1C30 /* LaunchScreen.xib */,
 				B412BB4619F62AE2009D1C30 /* Supporting Files */,
+				B412BB6F19F6466D009D1C30 /* FirstCell.h */,
+				B412BB7019F6466D009D1C30 /* FirstCell.m */,
 			);
 			path = "BI-IOS-TableView";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				B412BB4F19F62AE2009D1C30 /* ViewController.m in Sources */,
 				B412BB4C19F62AE2009D1C30 /* AppDelegate.m in Sources */,
+				B412BB7119F6466D009D1C30 /* FirstCell.m in Sources */,
 				B412BB4919F62AE2009D1C30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,9 +349,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dominik Vesely (5NBVJ96849)";
 				INFOPLIST_FILE = "BI-IOS-TableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c44edbe-178b-46a7-ba47-f024da1c00ac";
 			};
 			name = Debug;
 		};
@@ -356,6 +364,7 @@
 				INFOPLIST_FILE = "BI-IOS-TableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c44edbe-178b-46a7-ba47-f024da1c00ac";
 			};
 			name = Release;
 		};
@@ -412,6 +421,7 @@
 				B412BB6819F62AE2009D1C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B412BB6919F62AE2009D1C30 /* Build configuration list for PBXNativeTarget "BI-IOS-TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +430,7 @@
 				B412BB6B19F62AE2009D1C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

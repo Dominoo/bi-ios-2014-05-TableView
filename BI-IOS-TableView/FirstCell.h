@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstCell.h
 //  BI-IOS-TableView
 //
 //  Created by Dominik Vesely on 21/10/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate>
-
+@interface FirstCell : UITableViewCell
 
 @end
-
